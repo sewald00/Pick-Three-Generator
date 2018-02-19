@@ -33,10 +33,10 @@ def main():
 #Create a label to display the random pick three
     label = tk.Label(root, text='')
     label.pack()
-
-
     root.mainloop()
-main()
+
+if __name__ =='__main__':
+    main()
 
 
 
